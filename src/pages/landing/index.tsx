@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // style
 import './style.css';
@@ -22,15 +23,15 @@ function Landing() {
                 </div>
                 <img src={LandImg} alt="proffy-landing" className="hero-image" />
                 <div className="buttons-container">
-                    <a href="http://localhost" className="study">
+                    <Link to="/study" className="study">
                         <img src={studyIcon} alt="study proffy app" />
                       Estudar
-                    </a>
+                    </Link>
 
-                    <a href="http://localhost" className="give-classes">
+                    <Link to="/give-classes" className="give-classes">
                         <img src={giveClassesIcon} alt="give classes" />
                       Dar Aulas
-                    </a>
+                    </Link>
                 </div>
                 <span className="total-connections">
                     Total de 2000 connexões já realizadas
