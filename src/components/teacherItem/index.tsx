@@ -12,7 +12,7 @@ function TeacherItem() {
             <header>
                 <img src="https://avatars1.githubusercontent.com/u/26006458?s=460&v=4" alt="daniel c" />
                 <div>
-                    <strong>Daniel C.</strong>
+                    <strong>Daniel C. Guimarães Rosa</strong>
                     <span>Física</span>
                 </div>
             </header>
